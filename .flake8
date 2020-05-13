@@ -4,3 +4,4 @@ ignore =
     E401,  # multiple imports
     W293   # Blank line contains whitespace
 max-line-length = 120
+known-modules = :[environ,vocab,course_inventory,db,mivideo],google-cloud-bigquery:[google.cloud,google.oauth2],psycopg2-binary:[psycopg2],yoyo-migrations:[yoyo],umich-api:[umich_api]
